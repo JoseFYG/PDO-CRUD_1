@@ -1,0 +1,22 @@
+{
+    "name": "yepes/pdo_crud1",
+    "description": "Practica Crud-PDO",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Jose Yepes",
+            "email": "joselitoyepes10@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.14"
+    }
+}
